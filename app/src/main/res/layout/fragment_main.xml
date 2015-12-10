@@ -1,0 +1,185 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.mycalculator.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/form"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            style="@style/form" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/key_ac"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/allClear"
+                style="@style/key_button" />
+            <Button
+                android:id="@+id/key_c"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/clear"
+                style="@style/key_button"/>
+            <Button
+                android:id="@+id/key_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/percent"
+                style="@style/key_button"/>
+            <Button
+                android:id="@+id/key_division"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/division"
+                style="@style/key_button"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/raw">
+            <Button
+                android:id="@+id/key_7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/seven"
+                style="@style/key_button" />
+            <Button
+                android:id="@+id/key_8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/eight"
+                style="@style/key_button"/>
+            <Button
+                android:id="@+id/key_9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/nine"
+                style="@style/key_button"/>
+            <Button
+                android:id="@+id/key_multiply"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/multiply"
+                style="@style/key_button"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/raw">
+            <Button
+                android:id="@+id/key_4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/four"
+                style="@style/key_button" />
+
+            <Button
+                android:id="@+id/key_5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/five"
+                style="@style/key_button" />
+
+            <Button
+                android:id="@+id/key_6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/six"
+                style="@style/key_button" />
+
+            <Button
+                android:id="@+id/key_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/minus"
+                style="@style/key_button"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/raw">
+            <Button
+                android:id="@+id/key_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/one"
+                style="@style/key_button" />
+
+            <Button
+                android:id="@+id/key_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/two"
+                style="@style/key_button" />
+
+            <Button
+                android:id="@+id/key_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/three"
+                style="@style/key_button" />
+
+            <Button
+                android:id="@+id/key_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/plus"
+                style="@style/key_button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/raw">
+            <Button
+                android:id="@+id/key_0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/zero"
+                style="@style/key_button" />
+            <Button
+                android:id="@+id/key_dot"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/dot"
+                style="@style/key_button"/>
+            <Button
+                android:id="@+id/key_equal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="@string/equal"
+                style="@style/key_button"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
